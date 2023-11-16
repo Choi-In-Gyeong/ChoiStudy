@@ -21,6 +21,8 @@ public class _01_JdbcEx {
 			System.out.println("DB연결 완료");
 			
 			stmt = conn.createStatement();
+//			stmt 는 쿼리문을 호출하는 객체
+
 			ResultSet srs = stmt.executeQuery("select * from student");//반환형 ResultSet으로 만든 객체에 담음.
 			printData(srs, "name", "id", "dept");//선언되지 않은 메서드 
 			

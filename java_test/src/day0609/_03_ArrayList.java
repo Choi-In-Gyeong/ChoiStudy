@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class _03_ArrayList {
 
 	public static void main(String[] args) {
+		
 		ArrayList<Integer> l = new ArrayList<>();
 		Scanner s = new Scanner(System.in);
 		for (int i = 1; i < 5; i++) {
